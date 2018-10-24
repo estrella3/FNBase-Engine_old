@@ -3,7 +3,7 @@
 <html>
 
 	<head>
-		<title> 자체단어 </title>
+		<title> 자체엔진 </title>
 		<meta charset="UTF-8">
 		<style>
 /* 헤더 영역 스타일 지정 */
@@ -49,6 +49,7 @@
 			width:80%;
 			background-color:#fff;
 			float:left;
+			text-align:center
 		        }
 
 /* 사이드 영역 스타일 지정 */
@@ -68,7 +69,10 @@
 			padding : 1px 1px;
 			text-align:center; 
 			font-size:12px;
-			background-color:silver;
+			background-color:cornsilk;
+			border-bottom:2px solid #7a5230;
+			border-right:2px solid #7a5230;
+			border-left: 2px solid #7a5230;
 		          }
 
 /* 전체 너비 및 가운데 배치 */
@@ -88,7 +92,6 @@
 		   <ul>
 		      <li> <a href="wd-info.html" target="m_view"> 소개 </a> </li>
 		      <li> <a href="wd-front.html" target="m_view"> 대문 </a></li>
-		      <li> <a href="http://wordwiki.net" target="m_view"> 본관 열기 </a></li>
 		   </ul>
  		</header> 
 
@@ -101,11 +104,13 @@
 
 		<aside id="m_side">
 		   <h2> 공지 </h2>
-		   <p> 2018 - 10 - 19<br>개장</p>
+		  	<marquee direction="up" width="520" behavior="slide">
+		   		<p> 2018 - 10 - 19<br>개발 시작</p>
+			</marquee>
 		</aside>
 
 		<footer id="m_footer">
-		   <p> 어떻게 될 지 아직 모르겠음 </p>
+		   <p> 시작은 미약하지만 끝은 그럴 듯 하게 </p>
 		   <address> admin@mailto.kro.kr </address>
 		   <p> ⓒ Estrella3 </p>
 		</footer>
